@@ -8,12 +8,12 @@
 	
 	if ($result->num_rows)
 	  echo "<span class='taken'>&nbsp;&#x2718; " .
-	       "The username '$user' is taken</span>";
+	       "Имя пользователя '$user' принимается</span>";
 		   // Имя занято
 		   
 	else
 	  echo "<span class='available'>&nbsp;&#x2714; " .
-	       "The username '$user' is available</span>";
+	       "Имя пользователя '$user' доступен</span>";
 		   // Имя доступно
   }
 ?>
